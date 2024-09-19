@@ -1,0 +1,124 @@
+.BMO-sub-navbar,
+.BMO-navbar-section {
+  display: flex;
+  }
+.BMO-navbar-container {
+    border-bottom: 1px solid #d9dce1;
+  }
+  .BMO-navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    max-width: 1440px;
+    padding: 0 220px;
+  }
+  .BMO-navbar-section {
+    font-size: 14px;
+    color: #646c76;
+  }
+  .BMO-navbar-item {
+    padding: 12px 8px 8px;
+  }
+  .BMO-navbar-item:first-child,
+  .BMO-navbar-item:not(:first-child):hover {
+    border-bottom: 3px solid #0075be;
+    cursor: pointer;
+  }
+  .BMO-search-section {
+    display: flex;
+    justify-content: end;
+    width: 278px;
+  }
+  .header-search {
+    border-left: 1px solid #d9dce1;
+    border-right: 1px solid #d9dce1;
+    position: relative;
+    width: 43px;
+    overflow: hidden;
+  }
+  .header-search:hover {
+    width: 108px;
+  }
+  .header-search img {
+    position: absolute;
+    top: 15px;
+    left: 2px;
+  }
+  .header-search input {
+    border: none;
+    height: 42px;
+  }
+  .header-search input::placeholder {
+    padding-left: 42px;
+  }
+  .country-flag {
+    border-right: 1px solid #d9dce1;
+    width: 83px;
+  }
+  .country-flag,
+  .country-lang {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .country-lang {
+    width: 86px;
+    color: #646c76;
+  }
+  .BMO-sub-header {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: auto;
+    padding: 0 220px;
+  }
+  .BMO-sub-navbar-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  .BMO-logo {
+    display: flex;
+    align-items: center;
+  }
+  .BMO-logo img {
+    height: 40px
+  }
+  .BMO-sub-navbar li {
+    padding: 0 12px;
+    height: 75px;
+    line-height: 75px;
+  }
+  .BMO-sub-navbar li:hover {
+    border-bottom: 3px solid #0075be;
+    cursor: pointer;
+  }
+  .sign-in-section {
+    height: 75px;
+    padding: 10px 0;
+  }
+  .sign-in-section button:hover {
+    cursor: pointer;
+  }
+  .sign-in-section button {
+    border-radius: 28px;
+    background-color: #0075be;
+    color: white;
+    border: none;
+    height: 55px;
+    width: 175px;
+  }
+  .sign-in-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .sign-in-text {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .sign-in-section button img {
+    filter: brightness(0) invert(1);
+  }
+  

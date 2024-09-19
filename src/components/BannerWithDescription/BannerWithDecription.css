@@ -1,0 +1,49 @@
+.banner-container {
+  display: flex;
+  max-width: 1440px;
+  margin: auto;
+  padding: 64px 220px 0;
+}
+.banner-description {
+  width: 42%;
+}
+
+.banner-title {
+  font-size: 45px;
+  margin: 40px 0 24px;
+}
+.text-sup {
+  position: relative;
+}
+
+.text-sup sup {
+  font-size: 12px;
+  color: #0075be;
+  position: absolute;
+}
+
+.banner-summary {
+  margin-bottom: 32px;
+}
+
+.banner-btn {
+  height: 60px;
+  color: #0075be;
+  border: 2px solid #0075be;
+  border-radius: 48px;
+  background-color: white;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.banner-btn:hover {
+  text-decoration: underline;
+}
+
+.banner-container img {
+  width: 58%;
+  border-radius: 15px;
+}

@@ -1,0 +1,32 @@
+.cta-section-container {
+	background: linear-gradient(180deg, #fff 0, #e6f9fe 40.5%);
+	padding-bottom: 64px;
+}
+.cta-section {
+  max-width: 1204px;
+  margin: auto;
+  text-align: center;
+}
+.cta-body {
+  display: flex;
+	gap: 32px;
+	margin-top: 32px;
+}
+.cta-content {
+	text-align: center;
+}
+.cta-icon {
+	width: 96px;
+	height: 72px;
+}
+.cta-link {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 24px;
+}
+.cta-link a {
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 700;
+}

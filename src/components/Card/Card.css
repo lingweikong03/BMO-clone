@@ -1,0 +1,137 @@
+.card-section {
+	margin-top: 64px;
+}
+.card-section-title h1 {
+  font-size: 14px;
+	text-align: center;
+	color: #646c76;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-bottom: 16px
+}
+.card-section-title h2 {
+  font-size: 32px;
+	text-align: center;
+	margin: 0 auto 32px;
+}
+h3 {
+  font-size: 22px;
+}
+.card-section-nav ul {
+	display: flex;
+	max-width: 1100px;
+	margin: auto;
+}
+.nav-item {
+  border-bottom: 4px solid #d9dce1;
+  padding: 0 24px 12px 24px;
+}
+.nav-item.selected {
+  border-bottom: 4px solid #005587;
+}
+.nav-item.selected .tab-heading {
+  color: #005587;
+}
+.nav-item.selected img {
+  filter: none;
+}
+.nav-item img {
+	margin: 0 auto;
+  display: block;
+  filter: brightness(0) saturate(100%) invert(44%) sepia(10%) saturate(401%) hue-rotate(173deg) brightness(92%) contrast(98%);
+}
+.nav-item .tab-heading {
+  margin: 8px 24px 0;
+  color: #646c76;
+  font-weight: 500;
+}
+.card-section-body {
+  max-width: 1228px;
+  margin: auto;
+}
+.card-body {
+  height: 460px;
+}
+.card-tab-container {
+  width: 33.33%;
+  height: 100%;
+  float: left;
+}
+.card-tab {
+  padding: 32px 16px 0 16px;
+  height: 100%;
+  box-sizing: border-box;
+}
+.card-tab-grey,
+.card-tab-light,
+.card-tab-dark {
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.card-tab a {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.card-tab-light a,
+.card-tab-dark a {
+  color: #ffffff;
+}
+.card-tab-light img,
+.card-tab-dark img {
+  filter: brightness(0) invert(1);
+}
+.card-tab h3 {
+  padding-top: 196px;
+}
+.card-tab-content {
+  padding: 0 2rem 2rem;
+}
+.card-tab-icon {
+  position: absolute;
+  top: 0;
+  padding-top: 40px;
+}
+.card-tab-link {
+  position: absolute;
+  bottom: 32px;
+  display: flex;
+  align-items: center;
+}
+.chevron-right {
+  height: 16px;
+}
+.card-tab-grey {
+  background-color: #f5f6f7;
+  color: #001928;
+}
+.card-tab-light {
+  background-color: #0075be;
+  color: #ffffff;
+}
+.card-tab-dark {
+  background-color: #005587;
+  color: #ffffff;
+}
+.card-tab-1-img {
+  background-image: url("https://www.bmo.com/dist/images/main/personal/tile_special_offers_680x328.webp");
+  height: 164px;
+  margin-bottom: -164px;
+  background-position: center center;
+  border-bottom-left-radius: 10000px 2000px;
+  border-bottom-right-radius: 10000px 2000px;
+  background-size: cover;
+}
+.card-tab-2-img {
+  background-image: url("https://bmo.bynder.com/transform/def8f8fe-64fb-4da1-8aa2-50abf8e238c0/hp-tile-en-680x328");
+  height: 164px;
+  margin-bottom: -164px;
+  background-position: center center;
+  border-bottom-left-radius: 10000px 2000px;
+  border-bottom-right-radius: 10000px 2000px;
+  background-size: cover;
+}

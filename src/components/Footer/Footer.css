@@ -1,0 +1,129 @@
+.BMO-footer {
+}
+.cdic-section {
+	display: flex;
+	justify-content: center;
+	padding: 64px 0;
+}
+.icon-container img {
+	height: 48px;
+	margin: 0 11px;
+}
+.cdic-content a {
+	font-weight: 700;
+}
+.explore-section {
+	background-color: #0075be;
+	border-bottom: 1px solid #fefefe;
+	display: flex;
+	justify-content: center;
+	padding: 32px 120px 24px;
+}
+.lists-container {
+	display: flex;
+	justify-content: center;
+	width: 1440px;
+	padding: 0 110px;
+}
+.explore-section a {
+	color: white;
+}
+.explore-list:not(:last-child) {
+	margin-right: 32px;
+}
+.explore-list {
+	width: 20%;
+}
+.explore-list li {
+	line-height: 24px;
+}
+.explore-list:last-child {
+	padding-top: 32px;
+	margin-left: 30px;
+}
+.explore-list h2 {
+	color: #e6f9fe;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 32px 0 24px;
+	min-height: 27px;
+}
+.explore-list li:not(:last-child) {
+	margin-bottom: 16px;
+}
+.explore-list a {
+	font-size: 16px;
+	font-weight: 400;
+}
+.explore-list img {
+	width: 180px;
+}
+.social-media-section {
+	padding: 19px 0;
+	background-color: #0075be;
+	border-bottom: 1px solid #fefefe;
+}
+.social-media-text,
+.social-media-icons,
+.social-media-container {
+	display: flex;
+}
+.social-media-container {
+	justify-content: space-between;
+	max-width: 1440px;
+	margin: auto;
+}
+.social-media-text {
+	margin-left: 120px;
+}
+.social-media-icons {
+	margin-right: 120px;
+	align-items: center;
+}
+.social-media-text a {
+	color: #fefefe;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 18px;
+}
+.social-media-text .text img {
+	width: 32px;
+	height: 32px;
+	margin-right: 10px;
+}
+.text {
+	display: flex;
+	align-items: center;
+	margin-right: 24px;
+}
+.icon {
+	margin-right: 8px;
+}
+.social-media-icons a img {
+	width: 28px;
+	height: 28px;
+}
+.bottom-section {
+	background-color: #0075be;
+	padding-bottom: 24px;
+}
+.bottom-container a {
+	color: #fefefe;
+	white-space: nowrap;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 12px;
+}
+.bottom-container {
+	max-width: 1440px;
+	margin: auto;
+}
+.quick-links {
+	display: flex;
+	padding: 60px 120px 12px;
+	column-gap: 42px;
+	flex-wrap: wrap;
+}
+.apple-download-icon {
+	margin-bottom: 24px;
+}
